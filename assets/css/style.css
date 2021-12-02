@@ -1,0 +1,122 @@
+/* Universal text selector */
+* {
+  font-family: "tahoma", "Lucida Grande", sans-serif;
+}
+/* header class*/
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: #49e96c;
+  font-size: 10px;
+  border: 15px solid #2355df;
+  margin: 1em;
+  margin: 15px;
+}
+
+/* footer class*/
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #49e96c;
+  font-size: 10px;
+  border: 15px solid #2355df;
+  margin: 1em;
+  margin: 15px;
+}
+/* ID to make links display inline within the header */
+#headerlinks {
+  display: inline
+}
+
+/* creating css to make the caption appear within the image */
+figure {
+  border: thin whitesmoke solid;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  max-width: 250px;
+  margin: auto;
+}
+img {max-width: 250px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+}
+
+/* css for our contact form */
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid rgb(7, 132, 190);
+  border-radius: 1em;
+}
+
+div+div {
+  margin-top: 1em;
+}
+
+label span {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid rgb(7, 132, 190);
+}
+
+input[type=checkbox], input[type=radio] {
+  width: auto;
+  border: none;
+}
+
+input:focus, textarea:focus {
+  border-color: rgb(7, 132, 190)
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+fieldset {
+  width: 250px;
+  box-sizing: border-box;
+  margin-left: 136px;
+  border: 1px solid rgb(7, 132, 190);
+}
+
+button {
+  margin: 25px 0 0 150px;
+}
+
+label {
+position: relative;
+}
+
+label em {
+position: absolute;
+right: 10px;
+top: 25px;
+}
+
